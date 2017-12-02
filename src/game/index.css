@@ -1,0 +1,22 @@
+.maze {
+  position: relative;
+}
+
+.maze .tile {
+  width: 40px;
+  height: 40px;
+  outline: 1px solid #b4b4b4;
+  text-align: center;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.tile.tile-bun {
+  background: url('./img/bun.png');
+  background-size: contain;
+}
+
+.tile.tile-mario {
+  background: url('./img/mario.png');
+  background-size: contain;  
+}
