@@ -109,12 +109,12 @@ class Maze extends Component {
 
   componentWillMount() {
     // start listning to keypress
-    document.addEventListener('keypress', this.handleKeyPress);
+    document.addEventListener('keydown', this.handleKeyPress);
   }
 
   componentWillUnmount() {
     // stop listning to keypress
-    document.removeEventListener('kepress', this.handleKeyPress);
+    document.removeEventListener('keydown', this.handleKeyPress);
   }
 
   render() {
